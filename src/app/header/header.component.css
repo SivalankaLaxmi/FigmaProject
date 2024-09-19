@@ -1,0 +1,62 @@
+h2 {
+    color: black;
+    font-weight: bold;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    bottom: 2px;
+    height: 66px;
+    /* width: 1043px; */
+  }
+  
+  li {
+    float: right;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    bottom: 50px;
+    right: 500px;
+    position: relative;
+    font-weight: bold;
+  }
+
+  /* Image */
+img {
+    position: absolute;
+width: 463px;
+height: 572px;
+left: 892px;
+top: 161px;
+}
+
+
+
+
+ .btn btn-primary {
+    position: relative;
+    left: 800px;
+    bottom: 41px;
+ }
+
+ #button {
+    position: relative;
+    left: 800px;
+    bottom: 41px;
+ }
+
+  #header {
+    width: 1189px;
+    height: 50px;
+    position: relative;
+    left: 166px;
+    top: 16px;
+    gap: 0px;
+    opacity: 0px;
+    
+  }
