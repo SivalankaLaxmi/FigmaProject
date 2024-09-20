@@ -1,0 +1,35 @@
+#img{
+    width: 421px;
+    height: 438px;
+    top: 61px;
+    left: 892px;
+    gap: 0px;
+    opacity: 0px;
+    position: relative;
+    display: flex;
+
+}
+
+/* .btn btn-primary {
+    position: relative;
+    left: 800px;
+    bottom: 41px;
+ }
+
+ #button {
+    position: relative;
+    left: 800px;
+    bottom: 41px;
+ } */
+
+ #content {
+    position: relative;
+    width: 541px;
+    height: 386px;
+    /* top: 219px; */
+    bottom: 270px;
+    left: 244px;
+    gap: 0px;
+    opacity: 0px;
+
+ }
