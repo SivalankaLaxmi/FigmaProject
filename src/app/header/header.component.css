@@ -36,7 +36,10 @@ top: 161px;
 }
 
 
-
+a {
+  color: black;
+  text-decoration: none;
+}
 
  .btn btn-primary {
     position: relative;

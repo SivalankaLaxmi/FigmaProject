@@ -1,0 +1,21 @@
+
+<form #myform = "ngForm" (ngSubmit) = "onSubmit(myform)" style="display: grid;width: 60%;align-items: center;">
+   
+    <label for="first_name">First name : </label>
+    <input type="text" name="first_name" class="form-control" ngModel required placeholder="First Name"><br>
+    <label for="last_name">Last name : </label>
+    <input type="text" class="form-control" name="last_name" ngModel required placeholder="Last Name"><br>
+    <label for="email">Email : </label>
+    <input type="email" class="form-control" name="emailId" ngModel required placeholder="Email"><br>
+    <label for="age">Age : </label>
+    <input type="number" class="form-control" name="age" ngModel required placeholder="Age"><br>
+    <label for="gender">Gender : </label>
+    <select name="gender" class="form-control" ngModel required>
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+    </select><br><br>
+    <label for="Mobile">Mobile Number : </label>
+    <input type="text" class="form-control" name="mobilenumber" ngModel required placeholder="Mobile Number"><br>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  

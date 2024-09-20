@@ -1,0 +1,32 @@
+<p>updatelist works!</p>
+<form (ngSubmit)="onSubmit()" #editContactForm="ngForm">
+    <div class="form-group">
+      <label for="first_name">First Name</label>
+      <input type="text" id="first_name" name="first_name" [(ngModel)]="contact.first_name" required class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="last_name">Last Name</label>
+      <input type="text" id="last_name" name="last_name" [(ngModel)]="contact.last_name" required class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="emailId">Email</label>
+      <input type="email" id="emailId" name="emailId" [(ngModel)]="contact.emailId" required class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="age">Age</label>
+      <input type="number" id="age" name="age" [(ngModel)]="contact.age" required class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="gender">Gender</label>
+      <select id="gender" name="gender" [(ngModel)]="contact.gender" required class="form-control">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="mobilenumber">Mobile Number</label>
+      <input type="tel" id="mobilenumber" name="mobilenumber" [(ngModel)]="contact.mobilenumber" required class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Update</button>
+  </form>
+  

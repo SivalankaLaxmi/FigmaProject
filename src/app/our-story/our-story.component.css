@@ -1,0 +1,91 @@
+#title {
+    width: 515px;
+    height: 198px;
+    top: 2191px;
+    left: 245px;
+    gap: 0px;
+    opacity: 0px;
+    font-weight: bolder;
+}
+.our-story {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 5;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .our-story {
+      font-size: 0.8rem;
+    }
+  }
+  
+
+#img2 {
+    position: relative;
+    bottom: 85px;
+    left: 39px;
+    
+
+}
+
+#img3 {
+    position: relative;
+    bottom: 73px;
+    left: 70px;
+}
+
+#para{
+    width: 490px;
+    height: 116px;
+    position: relative;
+    bottom: 97px;
+    left: 239px;
+
+}
+#div1 {
+    float: right;
+    width: 314px;
+height: 140px;
+top: 3195px;
+left: 1023px;
+gap: 0px;
+opacity: 0px;
+}
+
+#div2 {
+    float: right;
+    width: 314px;
+height: 140px;
+top: 3195px;
+left: 1023px;
+gap: 0px;
+opacity: 0px;
+
+}
+#div3{
+    float: right;
+    width: 314px;
+height: 140px;
+top: 3195px;
+left: 1023px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+#div {
+    width: 1000px;
+height: 120px;
+top: 3195px;
+left: 263px;
+gap: 0px;
+opacity: 0px;
+
+}
