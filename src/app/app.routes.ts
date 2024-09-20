@@ -11,5 +11,6 @@ export const routes: Routes = [
     {path: 'contact', component: ContactComponent},
     {path: 'contactlist', component: ContactListComponent},
     {path: 'update/:id', component: UpdatelistComponent},
-    {path: 'content', component: ContentComponent}
+    {path: 'content', component: ContentComponent},
+    {path: '', component: ContentComponent}
 ];
